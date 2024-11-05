@@ -1,0 +1,13 @@
+prefix=/Users/gaurav/Extion_DataScience/Project_2/venv
+exec_prefix=/Users/gaurav/Extion_DataScience/Project_2/venv
+libdir=/Users/gaurav/Extion_DataScience/Project_2/venv/lib
+sharedlibdir=/Users/gaurav/Extion_DataScience/Project_2/venv/lib
+includedir=/Users/gaurav/Extion_DataScience/Project_2/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
